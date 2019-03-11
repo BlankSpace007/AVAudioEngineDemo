@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9B78C5D2236846C00157FE3 /* MixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B78C5C2236846C00157FE3 /* MixViewController.m */; };
+		D9B78C5F2236860B00157FE3 /* 雨宮天 - Skyreach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D9B78C5E2236860B00157FE3 /* 雨宮天 - Skyreach.mp3 */; };
+		D9F500022232AE47005DF771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F500012232AE47005DF771 /* AppDelegate.m */; };
+		D9F500052232AE47005DF771 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F500042232AE47005DF771 /* ViewController.m */; };
+		D9F500082232AE47005DF771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F500062232AE47005DF771 /* Main.storyboard */; };
+		D9F5000A2232AE4C005DF771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F500092232AE4C005DF771 /* Assets.xcassets */; };
+		D9F5000D2232AE4C005DF771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F5000B2232AE4C005DF771 /* LaunchScreen.storyboard */; };
+		D9F500102232AE4C005DF771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F5000F2232AE4C005DF771 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9B78C5B2236846C00157FE3 /* MixViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixViewController.h; sourceTree = "<group>"; };
+		D9B78C5C2236846C00157FE3 /* MixViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixViewController.m; sourceTree = "<group>"; };
+		D9B78C5E2236860B00157FE3 /* 雨宮天 - Skyreach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "雨宮天 - Skyreach.mp3"; sourceTree = "<group>"; };
+		D9F500002232AE47005DF771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9F500012232AE47005DF771 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9F500032232AE47005DF771 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9F500042232AE47005DF771 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9F500072232AE47005DF771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9F500092232AE4C005DF771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9F5000C2232AE4C005DF771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9F5000E2232AE4C005DF771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F5000F2232AE4C005DF771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9F500162232B06E005DF771 /* AVAudioEngine_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioEngine_.h; sourceTree = "<group>"; };
+		D9F5FFFD2232AE47005DF771 /* AVAudioEngineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioEngineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9F5FFFA2232AE47005DF771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9F5FFF42232AE47005DF771 = {
+			isa = PBXGroup;
+			children = (
+				D9F5FFFF2232AE47005DF771 /* AVAudioEngineDemo */,
+				D9F5FFFE2232AE47005DF771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F5FFFE2232AE47005DF771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5FFFD2232AE47005DF771 /* AVAudioEngineDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F5FFFF2232AE47005DF771 /* AVAudioEngineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D9B78C5E2236860B00157FE3 /* 雨宮天 - Skyreach.mp3 */,
+				D9F500002232AE47005DF771 /* AppDelegate.h */,
+				D9F500012232AE47005DF771 /* AppDelegate.m */,
+				D9F500032232AE47005DF771 /* ViewController.h */,
+				D9F500042232AE47005DF771 /* ViewController.m */,
+				D9B78C5B2236846C00157FE3 /* MixViewController.h */,
+				D9B78C5C2236846C00157FE3 /* MixViewController.m */,
+				D9F500062232AE47005DF771 /* Main.storyboard */,
+				D9F500092232AE4C005DF771 /* Assets.xcassets */,
+				D9F5000B2232AE4C005DF771 /* LaunchScreen.storyboard */,
+				D9F500162232B06E005DF771 /* AVAudioEngine_.h */,
+				D9F5000E2232AE4C005DF771 /* Info.plist */,
+				D9F5000F2232AE4C005DF771 /* main.m */,
+			);
+			path = AVAudioEngineDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9F5FFFC2232AE47005DF771 /* AVAudioEngineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F500132232AE4C005DF771 /* Build configuration list for PBXNativeTarget "AVAudioEngineDemo" */;
+			buildPhases = (
+				D9F5FFF92232AE47005DF771 /* Sources */,
+				D9F5FFFA2232AE47005DF771 /* Frameworks */,
+				D9F5FFFB2232AE47005DF771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVAudioEngineDemo;
+			productName = AVAudioEngineDemo;
+			productReference = D9F5FFFD2232AE47005DF771 /* AVAudioEngineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9F5FFF52232AE47005DF771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "李希朋";
+				TargetAttributes = {
+					D9F5FFFC2232AE47005DF771 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D9F5FFF82232AE47005DF771 /* Build configuration list for PBXProject "AVAudioEngineDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9F5FFF42232AE47005DF771;
+			productRefGroup = D9F5FFFE2232AE47005DF771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9F5FFFC2232AE47005DF771 /* AVAudioEngineDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9F5FFFB2232AE47005DF771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F5000D2232AE4C005DF771 /* LaunchScreen.storyboard in Resources */,
+				D9F5000A2232AE4C005DF771 /* Assets.xcassets in Resources */,
+				D9B78C5F2236860B00157FE3 /* 雨宮天 - Skyreach.mp3 in Resources */,
+				D9F500082232AE47005DF771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9F5FFF92232AE47005DF771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F500052232AE47005DF771 /* ViewController.m in Sources */,
+				D9F500102232AE4C005DF771 /* main.m in Sources */,
+				D9F500022232AE47005DF771 /* AppDelegate.m in Sources */,
+				D9B78C5D2236846C00157FE3 /* MixViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9F500062232AE47005DF771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F500072232AE47005DF771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9F5000B2232AE4C005DF771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F5000C2232AE4C005DF771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9F500112232AE4C005DF771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9F500122232AE4C005DF771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9F500142232AE4C005DF771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXUHMAZ6WZ;
+				INFOPLIST_FILE = AVAudioEngineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxp.AVAudioEngineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9F500152232AE4C005DF771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXUHMAZ6WZ;
+				INFOPLIST_FILE = AVAudioEngineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxp.AVAudioEngineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9F500132232AE4C005DF771 /* Build configuration list for PBXNativeTarget "AVAudioEngineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F500142232AE4C005DF771 /* Debug */,
+				D9F500152232AE4C005DF771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F5FFF82232AE47005DF771 /* Build configuration list for PBXProject "AVAudioEngineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F500112232AE4C005DF771 /* Debug */,
+				D9F500122232AE4C005DF771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9F5FFF52232AE47005DF771 /* Project object */;
+}
