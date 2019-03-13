@@ -47,6 +47,12 @@
 
     _lengthLabel.text = [NSString stringWithFormat:@"%d:%d",second/60,second%60];
     
+         AVPlayer *avPlayer = [[AVPlayer alloc]initWithURL:[NSURL URLWithString:@"http://yinyueshiting.baidu.com/data2/music/121859548/1201250291406001661128.mp3?xcode=296f7746a300c412bedf6f0db640bd7aaf56297aed761ad4"]] ;
+
+   
+        [avPlayer play];
+    
+    
 
 }
 - (void)viewDidLayoutSubviews {
@@ -67,7 +73,13 @@
     if (!_file) {
         NSString* file = [[NSBundle mainBundle]pathForResource:@"周杰伦-告白气球" ofType:@"mp3"];
         NSError* error;
-        _file = [[AVAudioFile alloc]initForReading:[NSURL URLWithString:file] commonFormat:AVAudioPCMFormatInt16 interleaved:YES error:&error];
+        _file = [[AVAudioFile alloc]initForReading:[NSURL fileURLWithPath:file] commonFormat:AVAudioPCMFormatInt16 interleaved:YES error:&error];
+//        _file = [[AVAudioFile alloc]initForReading:[NSURL URLWithString:@"http://stream8.qqmusic.qq.com/117030812.wma"] commonFormat:AVAudioPCMFormatInt16 interleaved:YES error:&error];
+
+        if (error) {
+            NSLog(@"%@",error.localizedDescription);
+            
+        }
         
     }
     return _file;
