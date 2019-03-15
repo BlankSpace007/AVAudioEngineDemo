@@ -47,10 +47,6 @@
 
     _lengthLabel.text = [NSString stringWithFormat:@"%d:%d",second/60,second%60];
     
-         AVPlayer *avPlayer = [[AVPlayer alloc]initWithURL:[NSURL URLWithString:@"http://yinyueshiting.baidu.com/data2/music/121859548/1201250291406001661128.mp3?xcode=296f7746a300c412bedf6f0db640bd7aaf56297aed761ad4"]] ;
-
-   
-        [avPlayer play];
     
     
 

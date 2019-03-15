@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4710683DA7E396FBE9352214 /* libPods-AVAudioEngineDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE59C17FDB62AA82B4A55C4 /* libPods-AVAudioEngineDemo.a */; };
 		A18B3B51223797860063767E /* 林俊杰 - 她说_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18B3B50223797860063767E /* 林俊杰 - 她说_1.mp3 */; };
 		A18B3B542238AAA70063767E /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B3B532238AAA70063767E /* PlayerViewController.m */; };
 		A18B3B572238CD420063767E /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18B3B562238CD420063767E /* PlayerViewController.xib */; };
 		A18B3B592238D1470063767E /* 周杰伦-告白气球.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18B3B582238D1470063767E /* 周杰伦-告白气球.mp3 */; };
+		A18B3B5E223A361F0063767E /* CompressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B3B5C223A361F0063767E /* CompressViewController.m */; };
+		A18B3B5F223A361F0063767E /* CompressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18B3B5D223A361F0063767E /* CompressViewController.xib */; };
 		D9B78C5D2236846C00157FE3 /* MixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B78C5C2236846C00157FE3 /* MixViewController.m */; };
 		D9B78C5F2236860B00157FE3 /* 雨宮天 - Skyreach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D9B78C5E2236860B00157FE3 /* 雨宮天 - Skyreach.mp3 */; };
 		D9F500022232AE47005DF771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F500012232AE47005DF771 /* AppDelegate.m */; };
@@ -22,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19A8C1DE0B7187BF6518EB6D /* Pods-AVAudioEngineDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVAudioEngineDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVAudioEngineDemo/Pods-AVAudioEngineDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3EE59C17FDB62AA82B4A55C4 /* libPods-AVAudioEngineDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVAudioEngineDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18B3B4F223761F70063767E /* AVAudioEnviromentNode_.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioEnviromentNode_.h; sourceTree = "<group>"; };
 		A18B3B50223797860063767E /* 林俊杰 - 她说_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林俊杰 - 她说_1.mp3"; sourceTree = "<group>"; };
 		A18B3B522238AAA70063767E /* PlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
@@ -29,6 +34,10 @@
 		A18B3B552238AABA0063767E /* AVAudioPlayerNode_.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioPlayerNode_.h; sourceTree = "<group>"; };
 		A18B3B562238CD420063767E /* PlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
 		A18B3B582238D1470063767E /* 周杰伦-告白气球.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "周杰伦-告白气球.mp3"; sourceTree = "<group>"; };
+		A18B3B5B223A361F0063767E /* CompressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompressViewController.h; sourceTree = "<group>"; };
+		A18B3B5C223A361F0063767E /* CompressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompressViewController.m; sourceTree = "<group>"; };
+		A18B3B5D223A361F0063767E /* CompressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompressViewController.xib; sourceTree = "<group>"; };
+		BA9D8BB4F2D47698A81589F4 /* Pods-AVAudioEngineDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVAudioEngineDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVAudioEngineDemo/Pods-AVAudioEngineDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D9B78C5B2236846C00157FE3 /* MixViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixViewController.h; sourceTree = "<group>"; };
 		D9B78C5C2236846C00157FE3 /* MixViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixViewController.m; sourceTree = "<group>"; };
 		D9B78C5E2236860B00157FE3 /* 雨宮天 - Skyreach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "雨宮天 - Skyreach.mp3"; sourceTree = "<group>"; };
@@ -50,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4710683DA7E396FBE9352214 /* libPods-AVAudioEngineDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CFB843EBED717C826633793 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EE59C17FDB62AA82B4A55C4 /* libPods-AVAudioEngineDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		692F7122D08B49E8F111DEB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D8BB4F2D47698A81589F4 /* Pods-AVAudioEngineDemo.debug.xcconfig */,
+				19A8C1DE0B7187BF6518EB6D /* Pods-AVAudioEngineDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D9F5FFF42232AE47005DF771 = {
 			isa = PBXGroup;
 			children = (
 				D9F5FFFF2232AE47005DF771 /* AVAudioEngineDemo */,
 				D9F5FFFE2232AE47005DF771 /* Products */,
+				692F7122D08B49E8F111DEB8 /* Pods */,
+				4CFB843EBED717C826633793 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +116,9 @@
 				A18B3B522238AAA70063767E /* PlayerViewController.h */,
 				A18B3B532238AAA70063767E /* PlayerViewController.m */,
 				A18B3B562238CD420063767E /* PlayerViewController.xib */,
+				A18B3B5B223A361F0063767E /* CompressViewController.h */,
+				A18B3B5C223A361F0063767E /* CompressViewController.m */,
+				A18B3B5D223A361F0063767E /* CompressViewController.xib */,
 				A18B3B4F223761F70063767E /* AVAudioEnviromentNode_.h */,
 				A18B3B552238AABA0063767E /* AVAudioPlayerNode_.h */,
 				D9F500062232AE47005DF771 /* Main.storyboard */,
@@ -106,6 +138,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9F500132232AE4C005DF771 /* Build configuration list for PBXNativeTarget "AVAudioEngineDemo" */;
 			buildPhases = (
+				13F0705351B4C80FA56905D1 /* [CP] Check Pods Manifest.lock */,
 				D9F5FFF92232AE47005DF771 /* Sources */,
 				D9F5FFFA2232AE47005DF771 /* Frameworks */,
 				D9F5FFFB2232AE47005DF771 /* Resources */,
@@ -162,11 +195,33 @@
 				D9B78C5F2236860B00157FE3 /* 雨宮天 - Skyreach.mp3 in Resources */,
 				A18B3B592238D1470063767E /* 周杰伦-告白气球.mp3 in Resources */,
 				D9F500082232AE47005DF771 /* Main.storyboard in Resources */,
+				A18B3B5F223A361F0063767E /* CompressViewController.xib in Resources */,
 				A18B3B572238CD420063767E /* PlayerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13F0705351B4C80FA56905D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVAudioEngineDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9F5FFF92232AE47005DF771 /* Sources */ = {
@@ -177,6 +232,7 @@
 				D9F500102232AE4C005DF771 /* main.m in Sources */,
 				D9F500022232AE47005DF771 /* AppDelegate.m in Sources */,
 				D9B78C5D2236846C00157FE3 /* MixViewController.m in Sources */,
+				A18B3B5E223A361F0063767E /* CompressViewController.m in Sources */,
 				A18B3B542238AAA70063767E /* PlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +373,7 @@
 		};
 		D9F500142232AE4C005DF771 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9D8BB4F2D47698A81589F4 /* Pods-AVAudioEngineDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -337,6 +394,7 @@
 		};
 		D9F500152232AE4C005DF771 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A8C1DE0B7187BF6518EB6D /* Pods-AVAudioEngineDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
